@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Lato, sans-serif;
+  background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+  color: #54575A;
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1379px;
+  margin: auto;
+}
+.brand-img {
+  width: 193px;
+  height: 47.638px;
+  flex-shrink: 0;
+}
+
+.title {
+  color: #54575A;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 67.5px; /* 105.469% */
+  width: 458px;
+  position: absolute;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+}
+
+.text {
+  position: absolute;
+  height: 96px;
+  left: 221px;
+  width: 394px;
+  top: 403px;
+  color: #54575A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.443px;
+  height: 46.278px;
+  flex-shrink: 0;
+  left: 221px;
+  top: 531px;
+}
+
+.app-store-btn img {
+  width: 138.443px;
+  height: 46.278px;
+}
+
+.google-play-btn {
+  position: absolute;
+  width: 138.443px;
+  height: 46.278px;
+  flex-shrink: 0;
+  left: 381.81px;
+  top: 531px;
+}
+
+.google-play-btn img {
+  width: 138.443px;
+  height: 46.278px;
+}
+
+.main-image-container {
+  position: absolute;
+  width: 535.717px;
+  height: 309.27px;
+  flex-shrink: 0;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411.152px;
+}
+
+.profile-img {
+  position: absolute;
+  height: 470px;
+  left: 737px;
+  right: 479px;
+  top: 686px;
+
+}
+
+.product-img {
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+}
+
+.cart-img {
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+}
+
+.home-img {
+  position: absolute;
+  width: 224px;
+  height: 470px;
+  flex-shrink: 0;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+}
+
+/* Background Toggles */
+.background-toggles {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Background */
+.background-1 {
+  background-color: #f1f0f1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='charlie-brown' fill='%23838383' fill-opacity='0.2'%3E%3Cpath d='M9.8 12L0 2.2V.8l10 10 10-10v1.4L10.2 12h-.4zm-4 0L0 6.2V4.8L7.2 12H5.8zm8.4 0L20 6.2V4.8L12.8 12h1.4zM9.8 0l.2.2.2-.2h-.4zm-4 0L10 4.2 14.2 0h-1.4L10 2.8 7.2 0H5.8z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2 {
+  background: #bdc3c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.background-3 {
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
